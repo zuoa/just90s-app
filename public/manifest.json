@@ -1,0 +1,26 @@
+{
+  "name": "90秒 - 情绪陪伴",
+  "short_name": "90秒",
+  "description": "陪你度过最容易失控的那90秒",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "wellness"],
+  "lang": "zh-CN"
+}
