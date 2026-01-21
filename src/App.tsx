@@ -211,12 +211,6 @@ function App() {
     }
   }, [phase, stopAudio])
 
-  // 重置会话
-  const resetSession = useCallback(() => {
-    setPhase('start')
-    setElapsedTime(0)
-  }, [])
-
   // 再来一轮
   const restartSession = useCallback(() => {
     setInterruption(false)
